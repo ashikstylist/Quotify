@@ -38,6 +38,7 @@
       </div>
 	<script>
       function data(){
+        var random =   Math.floor(Math.random() * Math.floor(1000));
         var display = $("#output")
       fetch("https://type.fit/api/quotes")
       .then(function(response) {
