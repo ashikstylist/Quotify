@@ -38,6 +38,7 @@
       </div>
 	<script>
       function data(){
+        var display = $("#output")
       fetch("https://type.fit/api/quotes")
       .then(function(response) {
         return response.json();
