@@ -47,6 +47,7 @@
       .then(function(data){
         display.empty();
 	      display.append("<h5 style='text-align:center;margin-top:15px;'><i class='fa fa-quote-left' style='font-size:26px;color:tomato;'></i><b style='padding-left:10px;'><br>"+data[random]['text']+"</b></h5>" );
+		  var author =data[random]['author'];
           display.append("<h5 style='text-align:end;'><b style='padding-left:10px;'><span style='font-size:26px;color:tomato;''></span> "+data[random]['author']+"</b></h5>" );
       });
        }
