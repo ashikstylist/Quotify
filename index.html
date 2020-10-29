@@ -10,6 +10,16 @@
 	 <title>Quotify</title>
 	
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script>
+      function data(){
+      fetch("https://type.fit/api/quotes")
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+      });
+       }
+      </script>
 	 <style>
       body{
         background: linear-gradient(to right, #43cea2, #185a9d); 
